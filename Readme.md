@@ -1,16 +1,30 @@
 // Nodejs backed scraper
 1) Initiate the nodejs server
-1) code:npm run dev
+
+code:npm run dev
+
+
 2) Search parameter
-2)http://localhost:4000/search?url=https://en.wikipedia.org/wiki/Redux_(JavaScript_library)
+
+url:http://localhost:4000/search?url=https://en.wikipedia.org/wiki/Redux_(JavaScript_library)
+
+
+
 3)Please use smaller wikipedia pages as it might take long time.
 
 
 // React Front end codesandbox
+
 1)Frontend codebox url 
-1)https://codesandbox.io/p/sandbox/website-l7u38q?file=%2Fsrc%2Fpages%2Fcomponents%2FAbout.jsx
+
+url:https://codesandbox.io/p/sandbox/website-l7u38q?file=%2Fsrc%2Fpages%2Fcomponents%2FAbout.jsx
+
 2)start new terminal with this command
-2)npm run dev
+
+code:npm run dev
+
 3)Copy wikipedia url to input form , press enter
+
 4)Table will be loaded in descending order based on rank
+
 5)Backend is uploaded on a free server hoster , so please use smaller wikipedia page url.(Bigger will crash because of low server memory)
