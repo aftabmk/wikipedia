@@ -2,7 +2,6 @@ import express from "express"
 import { scrape } from './function.js'
 import cors from 'cors'
 
-// const url = "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)"
 const app = express();
 const PORT = process.env.PORT || 4000
 app.use(cors())
