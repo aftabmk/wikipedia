@@ -1,14 +1,12 @@
 // Nodejs backed scraper
-1) Initiate the nodejs server
+
+1)Initiate the nodejs server
 
 code:npm run dev
 
-
-2) Search parameter
+2)Search parameter
 
 url:http://localhost:4000/search?url=https://en.wikipedia.org/wiki/Redux_(JavaScript_library)
-
-
 
 3)Please use smaller wikipedia pages as it might take long time.
 
