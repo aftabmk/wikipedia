@@ -5,9 +5,7 @@ import cors from 'cors'
 const app = express();
 const PORT = process.env.PORT || 4000
 app.use(cors())
-app.get('/',(req,res)=>{
-    res.send({data:"get the url from wikipedia add '/search?url=wikipediaUrl' with no quotes})
-})
+app.get('/',(req,res)=>{res.send({data:"get the url from wikipedia add '/search?url=wikipediaUrl' with no quotes"})})
 app.get('/search?',async(req,res)=>{
     const url = req.query.url
     const data = await scrape(url)
